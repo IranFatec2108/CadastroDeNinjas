@@ -13,6 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description>Uma API para cadastros de Ninjas</description>
+	<repositories>
+		<repository>
+			<id>local-repo</id>
+			<url>file://C:/maven_repository</url>
+		</repository>
+	</repositories>
+
 	<url/>
 	<licenses>
 		<license/>
