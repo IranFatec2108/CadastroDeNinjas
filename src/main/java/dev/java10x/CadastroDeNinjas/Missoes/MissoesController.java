@@ -3,7 +3,7 @@ package dev.java10x.CadastroDeNinjas.Missoes;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("missoes")
+@RequestMapping("/missoes")
 public class MissoesController {
 
 
@@ -33,7 +33,7 @@ public class MissoesController {
 
     //DELETE -- mandar uma requisicao para excluir missoes
 
-    @DeleteMapping("/criar")
+    @DeleteMapping("/deletar")
 
     public String deletarMissao() {
         return "Missão deletada com sucesso: ";
