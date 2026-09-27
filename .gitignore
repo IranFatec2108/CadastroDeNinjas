@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
 ### STS ###
 .apt_generated
 .classpath
@@ -12,7 +13,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-.gitignore
 
 ### IntelliJ IDEA ###
 .idea
@@ -32,3 +32,7 @@ build/
 
 ### VS Code ###
 .vscode/
+data/
+.env
+.env.local
+*.env
