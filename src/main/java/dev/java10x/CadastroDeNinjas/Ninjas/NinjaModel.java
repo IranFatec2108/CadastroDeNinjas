@@ -8,6 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@ToString (exclude = "missoes")
 public class NinjaModel {
 
     @Id
